@@ -1,0 +1,54 @@
+# depslib dependency file v1.0
+1662980215 source:e:\coding\projects\qms\main.cpp
+	<iostream>
+	<unordered_map>
+	<vector>
+	<memory>
+	"room_check.h"
+	"Person.h"
+	"Covid_pos.h"
+	"Covid_neg.h"
+
+1662980653 e:\coding\projects\qms\include\room_check.h
+	<unordered_map>
+	<iostream>
+	"Person.h"
+	"Covid_neg.h"
+	"Covid_pos.h"
+
+1662980576 e:\coding\projects\qms\include\person.h
+	<string>
+
+1662980769 e:\coding\projects\qms\include\covid_neg.h
+	<string>
+	"Person.h"
+
+1662980714 e:\coding\projects\qms\include\covid_pos.h
+	"Person.h"
+	<string>
+
+1662980747 source:e:\coding\projects\qms\src\covid_neg.cpp
+	"Covid_neg.h"
+	<string>
+	<iostream>
+	"Person.h"
+
+1662980688 source:e:\coding\projects\qms\src\covid_pos.cpp
+	"Covid_pos.h"
+	"Person.h"
+	<iostream>
+	<string>
+
+1662980541 source:e:\coding\projects\qms\src\person.cpp
+	"Person.h"
+	<iostream>
+	<string>
+
+1662980632 source:e:\coding\projects\qms\src\room_check.cpp
+	"room_check.h"
+	<unordered_map>
+	<iostream>
+	"Person.h"
+	"Covid_neg.h"
+	"Covid_pos.h"
+
